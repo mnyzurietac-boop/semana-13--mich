@@ -1,0 +1,9 @@
+def verificar_mayor_edad(edad, edad_minima):
+    if edad >= edad_minima:
+        return "Es mayor de edad"
+    return "Es menor de edad"
+
+if __name__ == "__main__":
+    resultado = verificar_mayor_edad(14, 18)
+    print(resultado)
+    
