@@ -3,10 +3,6 @@
 Estudiante: Michelle Yzurieta Candel  
 Asignatura: Fundamentos de Programación   
 
-Este programa resuelve un problema de la vida real mediante la creación de una función en Python. Su objetivo es verificar si una persona es mayor de edad evaluando su edad actual respecto a la edad mínima legal configurada.
+Este programa aborda un caso práctico cotidiano: determinar si alguien es mayor de edad. Para lograrlo, define una función en Python que compara la edad de la persona contra un umbral legal, que por defecto suele ser 18 años pero puede ajustarse según el contexto.
 
-La función recibe dos parámetros:
- `edad`: Edad actual de la persona.
- `edad_minima`: Edad requerida para la mayoría de edad (ejemplo: 18).
-
-Retorna un mensaje indicando si la persona es mayor o menor de edad según el resultado de la evaluación.
+La función toma dos entradas esenciales: `edad`, que representa los años cumplidos de la persona, y `edad_minima`, que establece el requisito legal (por ejemplo, 18). Con esos datos, realiza una evaluación directa y devuelve un mensaje claro: si la edad supera o iguala el mínimo, confirma que es mayor; en caso contrario, indica que aún es menor. Todo el proceso se resume en una lógica simple pero efectiva, ideal para integrarse en sistemas de validación de identidad o acceso restringido.
